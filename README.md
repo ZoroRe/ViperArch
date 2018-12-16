@@ -4,11 +4,16 @@ An Android Sample Project use Viper Architecture.
 
 ### VIPER
 
-V -> View  
-I -> Interactor  
-P -> Presenter  
-E -> Entity  
-R -> Router  
+V -> View
+
+I -> Interactor
+
+P -> Presenter
+
+E -> Entity
+
+R -> Router
+
 Viper just like MVP or MVVM, just split presenter to presenter, interactor and router, so the code is more modularization.
 This VIPER are a litter different with normal viper, we use LiveData to contact View & Entity, so you change change UI easily after data change.
 
